@@ -7,7 +7,7 @@ Abra o terminal e execute os comandos:
 bash
 Copiar
 Editar
-git clone [https://github.com/Samuel-Dinho/microservico.git]
+git clone https://github.com/Samuel-Dinho/microservico.git
 cd cep-microservice
 
 2. Configure o Ambiente Virtual (Opcional, mas recomendado)
