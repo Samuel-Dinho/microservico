@@ -7,7 +7,7 @@ Abra o terminal e execute os comandos:
 bash
 Copiar
 Editar
-git clone [(https://github.com/Samuel-Dinho/microservico.git)]
+git clone [https://github.com/Samuel-Dinho/microservico.git]
 cd cep-microservice
 
 2. Configure o Ambiente Virtual (Opcional, mas recomendado)
@@ -24,15 +24,11 @@ Windows (CMD/PowerShell):
 3. Instale as dependências
 Com o ambiente virtual ativado, instale todas as dependências necessárias com o comando:
 
-bash
-Copiar
-Editar
+
 pip install -r requirements.txt
 
 4. Execute o microserviço
 Inicie o serviço localmente executando:
 
-bash
-Copiar
-Editar
+
 python app.py
