@@ -1,0 +1,37 @@
+Siga estes passos para colocar o microserviço funcionando na sua máquina:
+
+Clone o repositório:
+
+Bash
+
+git clone [URL_DO_SEU_REPOSITORIO]
+cd cep-microservice
+(Substitua [URL_DO_SEU_REPOSITORIO] pela URL real do seu repositório Git, se você o tiver em um.)
+
+Crie e ative um ambiente virtual (recomendado):
+É uma boa prática isolar as dependências do seu projeto.
+
+Bash
+
+python -m venv venv
+No Windows (CMD/PowerShell):
+
+Bash
+
+.\venv\Scripts\activate
+No Linux/macOS/Git Bash:
+
+Bash
+
+source venv/bin/activate
+Instale as dependências:
+
+Bash
+
+pip install -r requirements.txt
+Rode o microserviço:
+
+Bash
+
+python app.py
+O microserviço estará rodando em http://localhost:5000.
